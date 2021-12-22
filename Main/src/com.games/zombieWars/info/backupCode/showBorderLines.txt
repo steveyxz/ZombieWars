@@ -1,0 +1,7 @@
+for (int i = 0; i < handler.gameObjects.size(); i++) {
+            g2D.draw(handler.gameObjects.get(i).getBoundsBottom());
+            g2D.draw(handler.gameObjects.get(i).getBoundsLeft());
+            g2D.draw(handler.gameObjects.get(i).getBoundsRight());
+            g2D.draw(handler.gameObjects.get(i).getBoundsTop());
+            g2D.draw(handler.gameObjects.get(i).getBounds());
+        }

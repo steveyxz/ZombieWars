@@ -1,0 +1,10 @@
+{
+  "name": "Regeneration",
+  "id": "regenStack",
+  "value": 10,
+  "cost": 200,
+  "multiplier": 2,
+  "timeDelay": 16,
+  "stage": 0,
+  "maxStage": 4
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Rocket Launcher",
+  "damage": 15,
+  "bulletsAtOnce": 1,
+  "ammo": 6,
+  "spreadAngle": null,
+  "isExploding": true,
+  "cost": 1900,
+  "state": "locked",
+  "ammodelay": 600,
+  "power": 20
+}

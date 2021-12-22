@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="json-simple-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-2.8.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-20201115.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-io-1.3.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-2.8.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-core-2.10.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-databind-2.10.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-graphics-16-ea+5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-20201115-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-simple-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-4.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

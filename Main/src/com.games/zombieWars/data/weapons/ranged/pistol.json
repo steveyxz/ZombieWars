@@ -1,0 +1,11 @@
+{
+  "name": "Pistol",
+  "damage": 5,
+  "bulletsAtOnce": 1,
+  "ammo": 20,
+  "spreadAngle": null,
+  "isExploding": false,
+  "cost": 0,
+  "state": "current",
+  "ammodelay": 60
+}

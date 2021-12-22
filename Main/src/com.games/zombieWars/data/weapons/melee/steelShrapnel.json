@@ -1,0 +1,10 @@
+
+{
+  "name": "Steel Shrapnel",
+  "cost": 260,
+  "damage": 22,
+  "isAreaBased": false,
+  "state": "locked",
+  "skinCol": 1,
+  "skinRow": 1
+}

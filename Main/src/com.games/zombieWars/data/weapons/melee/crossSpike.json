@@ -1,0 +1,10 @@
+
+{
+  "name": "Cross Spike",
+  "cost": 110,
+  "damage": 12,
+  "isAreaBased": false,
+  "state": "locked",
+  "skinCol": 1,
+  "skinRow": 2
+}

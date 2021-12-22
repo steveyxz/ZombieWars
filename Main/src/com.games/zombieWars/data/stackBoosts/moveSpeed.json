@@ -1,0 +1,9 @@
+{
+  "name": "Move Speed",
+  "id": "moveSpeedStack",
+  "value": 10,
+  "cost": 100,
+  "multiplier": 1.5,
+  "stage": 0,
+  "maxStage": 4
+}

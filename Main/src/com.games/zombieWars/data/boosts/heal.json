@@ -1,0 +1,6 @@
+{
+  "name": "Basic Heal",
+  "id": "hpboost",
+  "value": 10,
+  "cost": 15
+}

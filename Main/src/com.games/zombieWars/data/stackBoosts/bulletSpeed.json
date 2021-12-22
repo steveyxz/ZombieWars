@@ -1,0 +1,9 @@
+{
+  "name": "Bullet Speed",
+  "id": "bulletSpeedStack",
+  "value": 10,
+  "cost": 100,
+  "multiplier": 1.8,
+  "stage": 0,
+  "maxStage": 4
+}

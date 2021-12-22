@@ -1,0 +1,10 @@
+
+{
+  "name": "Fists",
+  "cost": 0,
+  "damage": 7,
+  "isAreaBased": false,
+  "state": "current",
+  "skinCol": 1,
+  "skinRow": 4
+}

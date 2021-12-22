@@ -1,0 +1,11 @@
+{
+  "name": "Magnum",
+  "damage": 10,
+  "bulletsAtOnce": 1,
+  "ammo": 15,
+  "spreadAngle": null,
+  "isExploding": false,
+  "cost": 100,
+  "state": "locked",
+  "ammodelay": 60
+}

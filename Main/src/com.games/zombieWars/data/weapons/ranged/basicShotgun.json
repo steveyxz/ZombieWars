@@ -1,0 +1,11 @@
+{
+  "name": "Basic Shotgun",
+  "damage": 5,
+  "bulletsAtOnce": 5,
+  "ammo": 80,
+  "spreadAngle": 15,
+  "isExploding": false,
+  "cost": 500,
+  "state": "locked",
+  "ammodelay": 30
+}

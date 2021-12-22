@@ -1,0 +1,34 @@
+private void dodgeObstacles() {
+        LinkedList<GameObject> obstacleList = new LinkedList<>();
+        GameObject player = null;
+        for (int i = 0; i < handler.gameObjects.size(); i++) {
+            if (handler.gameObjects.get(i).getId() == ID.Obstacle) {
+                obstacleList.add(handler.gameObjects.get(i));
+            }
+            if (handler.gameObjects.get(i).getId() == ID.Player1) {
+                player = handler.gameObjects.get(i);
+            }
+        }
+        for (int i = 0; i < obstacleList.size(); i++) {
+            if (ValueRange.of((long) ((long) getY() - (obstacleList.get(i).getHeight()* 1.4)), ((long) getY() + height)).isValidIntValue((long) obstacleList.get(i).getY()) && player.getY() < getY() && ValueRange.of((long) ((long) getX() - (obstacleList.get(i).getWidth() * 1.4F)), (long) ((long) getX() + (obstacleList.get(i).getWidth() * 1.4F))).isValidIntValue((long) obstacleList.get(i).getX() + obstacleList.get(i).getWidth()/2)) {
+                //PLAYER ON AND OBSTACLE ON TOP
+                x += (speedX * 2);
+                y += (speedY);
+            }
+            if (ValueRange.of((long) getY() + height, (long) ((long) getY() + height + (obstacleList.get(i).getHeight()* 1.4))).isValidIntValue((long) obstacleList.get(i).getY()) && player.getY() > getY() && ValueRange.of((long) ((long) getX() - (obstacleList.get(i).getWidth() * 1.4F)), (long) ((long) getX() + (obstacleList.get(i).getWidth() * 1.4F))).isValidIntValue((long) obstacleList.get(i).getX() + obstacleList.get(i).getWidth()/2)) {
+                //PLAYER ON AND OBSTACLE ON BOTTOM
+                x -= (speedX * 2);
+                y -= (speedY);
+            }
+            if (ValueRange.of((long) getX() + width, (long) getX() + width + (obstacleList.get(i).getWidth())).isValidIntValue((long) obstacleList.get(i).getX() + obstacleList.get(i).getWidth()/2) && player.getX() > getX() && ValueRange.of((long) ((long) getY() - (obstacleList.get(i).getHeight() * 1.4F)), (long) ((long) getY() + (obstacleList.get(i).getWidth() * 1.4F))).isValidIntValue((long) obstacleList.get(i).getY() + obstacleList.get(i).getHeight()/2)) {
+                //PLAYER ON AND OBSTACLE ON RIGHT
+                y += (speedY * 2);
+                x -= (speedX);
+            }
+            if (ValueRange.of((long) getX() - (obstacleList.get(i).getWidth()* 2L), (long) getX() + width/2).isValidIntValue((long) obstacleList.get(i).getX() + obstacleList.get(i).getWidth()/2) && player.getX() < getX() && ValueRange.of((long) ((long) getY() - (obstacleList.get(i).getHeight() * 1.4F)), (long) ((long) getY() + (obstacleList.get(i).getWidth() * 1.4F))).isValidIntValue((long) obstacleList.get(i).getY() + obstacleList.get(i).getHeight()/2)) {
+                //PLAYER ON AND OBSTACLE ON LEFT
+                y -= (speedY * 2);
+                x += (speedX);
+            }
+        }
+    }

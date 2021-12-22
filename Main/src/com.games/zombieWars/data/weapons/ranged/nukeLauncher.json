@@ -1,0 +1,11 @@
+{
+  "name": "Nuke Launcher",
+  "damage": 50,
+  "bulletsAtOnce": 1,
+  "ammo": 3,
+  "spreadAngle": null,
+  "isExploding": false,
+  "cost": 6000,
+  "state": "locked",
+  "ammodelay": 1200
+}

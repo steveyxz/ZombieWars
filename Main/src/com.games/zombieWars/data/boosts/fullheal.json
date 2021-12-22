@@ -1,0 +1,6 @@
+{
+  "name": "Full Heal",
+  "id": "hpboost",
+  "value": 100,
+  "cost": 100
+}
